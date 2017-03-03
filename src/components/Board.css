@@ -1,0 +1,27 @@
+.Board {
+  text-align: center;
+  margin: 0 auto;
+  border: "1px solid black";
+  width: 270px;
+}
+
+.Board-logo {
+  animation: Board-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Board-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Board-intro {
+  font-size: large;
+}
+
+@keyframes Board-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

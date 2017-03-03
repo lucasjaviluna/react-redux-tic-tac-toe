@@ -1,0 +1,7 @@
+const SQUARE_CLICK = 'SQUARE_CLICK';
+const PLAYER_TURN = 'PLAYER_TURN';
+
+export {
+  SQUARE_CLICK,
+  PLAYER_TURN
+};
